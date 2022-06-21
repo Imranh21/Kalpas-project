@@ -1,0 +1,108 @@
+.formContainer {
+  width: 75%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 25%;
+
+  backdrop-filter: blur(2px);
+  overflow: auto;
+}
+
+.formContainer form {
+  width: 75%;
+  height: 100%;
+  float: left;
+  padding-left: 6rem;
+  padding-bottom: 6rem;
+  background: #ebf2f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+form .heading {
+  margin: 20px 0;
+}
+.heading h1 {
+  font-size: 20px;
+}
+
+form .field {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.field label {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.field input {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.field textarea {
+  width: 460px;
+  min-height: 80px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+.country input {
+  flex-grow: 1;
+  box-shadow: none;
+}
+
+.customized .flex {
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+.customized .flex input {
+  width: 260px;
+}
+.customized p {
+  margin-left: 10px;
+  color: red;
+}
+.field .phone {
+  display: flex;
+  align-items: center;
+}
+.field .phone .code {
+  width: 60px;
+  margin-right: 10px;
+}
+/* .field .phone .number {
+  flex-grow: 1;
+} */
+
+.submitBtn {
+  width: 220px;
+  margin-top: 10px;
+  padding: 10px 0;
+  border-radius: 10px;
+  background: #5cc8a1;
+  color: #fff;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.customized .phone {
+  width: 540px;
+}
